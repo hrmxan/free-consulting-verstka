@@ -1,0 +1,174 @@
+.clients-say {
+    h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: $tops_h1;
+        line-height: $tops_h1;
+        color: #001A26;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .carousel-body {
+        width: 100%;
+        height: 400px;
+        padding-top: 7rem;
+
+        .top {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+            .qosh {
+                width: 80px;
+                height: 60px;
+                opacity: 0.9;
+            }
+
+            .logo {
+                width: 110px;
+                height: 110px;
+                border-radius: 110px;
+                transform: translateY(-4rem);
+            }
+        }
+
+        .text {
+            width: 47vw;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: $client_say_text;
+            line-height: $client_say_text * 2;
+            text-align: center;
+            color: #001A26;
+            opacity: 0.9;
+        }
+    }
+
+    .buttons {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .carousel-control-prev {
+            position: initial;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 26px;
+            border: 1px solid #5A68E7;
+            box-sizing: border-box;
+            border-radius: 4px;
+            width: 70px;
+            height: 40px;
+
+            i {
+                color: #5A68E7;
+            }
+        }
+        .carousel-control-next {
+            position: initial;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 26px;
+            border: 1px solid #5A68E7;
+            background: #5A68E7;
+            box-sizing: border-box;
+            border-radius: 4px;
+            width: 70px;
+            height: 40px;
+
+            i {
+                color: #fff;
+            }
+        }
+    }
+}
+@media only screen and (max-width:767px) {
+    .clients-say {
+        h1 {
+            font-size: $tops_h1 - 10px;
+            line-height: $tops_h1 - 10px;
+        }
+    
+        .carousel-body {
+    
+            .top {
+                justify-content: space-between;
+    
+                .qosh {
+                    width: 60px;
+                    height: 50px;
+                    opacity: 0.9;
+                }
+    
+                .logo {
+                    width: 110px;
+                    height: 110px;
+                }
+            }
+    
+            .text {
+                width: 80%;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: $client_say_text - 4px;
+                line-height: $client_say_text + 4px;
+                text-align: center;
+                color: #001A26;
+                opacity: 0.9;
+            }
+        }
+    
+        .buttons {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .carousel-control-prev {
+                position: initial;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 26px;
+                border: 1px solid #5A68E7;
+                box-sizing: border-box;
+                border-radius: 4px;
+                width: 70px;
+                height: 40px;
+    
+                i {
+                    color: #5A68E7;
+                }
+            }
+            .carousel-control-next {
+                position: initial;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 26px;
+                border: 1px solid #5A68E7;
+                background: #5A68E7;
+                box-sizing: border-box;
+                border-radius: 4px;
+                width: 70px;
+                height: 40px;
+    
+                i {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

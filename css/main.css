@@ -1,0 +1,2030 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@600&display=swap");
+.main__page_content {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("./../images/main_content_bg.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./../images/main_content_bg.png");
+  background-size: auto 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.main__page_content .navbar-toggler-icon {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.main__page_content .btn_login {
+  background-color: #5A68E7;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.main__page_content .navbar-brand {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.main__page_content .navbar-brand .logo__image {
+  height: 30px;
+}
+
+.main__page_content .info h1 {
+  width: 700px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+}
+
+.main__page_content .info p {
+  width: 500px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.9;
+  margin-bottom: 3rem;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+}
+
+.main__page_content .info button {
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+}
+
+.main__page_content .universitets {
+  margin-top: 3rem;
+  padding: 5rem 0 8rem;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+}
+
+.main__page_content .universitets img {
+  width: 120px;
+  -webkit-filter: contrast(0.4);
+          filter: contrast(0.4);
+  opacity: 0.8;
+}
+
+.main__page_content .universitets a {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .main__page_content .info h1 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+  }
+  .main__page_content .info p {
+    font-size: 12px;
+  }
+  .main__page_content .universitets {
+    margin-top: 3rem;
+    padding: 5rem 0 8rem;
+  }
+  .main__page_content .universitets img {
+    width: 120px;
+    -webkit-filter: contrast(0.4);
+            filter: contrast(0.4);
+    opacity: 0.8;
+  }
+  .main__page_content .universitets a {
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .main__page_content .info h1 {
+    width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+  }
+  .main__page_content .info p {
+    width: 100%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-bottom: 3rem;
+  }
+  .main__page_content .universitets {
+    margin-top: 3rem;
+    padding: 5rem 0 8rem;
+  }
+  .main__page_content .universitets img {
+    width: 90px;
+    -webkit-filter: contrast(0.4);
+            filter: contrast(0.4);
+    opacity: 0.8;
+  }
+  .main__page_content .universitets a {
+    padding: 0.5rem 1rem;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .main__page_content .universitets img {
+    width: 90px;
+    -webkit-filter: contrast(0.4);
+            filter: contrast(0.4);
+    opacity: 0.8;
+  }
+  .main__page_content .universitets a {
+    padding: 0.4rem 0.4rem;
+    margin: 0;
+  }
+}
+
+.tops .btn-more {
+  background-color: #5A68E7;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.tops h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  color: #001A26;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.tops .card {
+  position: relative;
+  height: 300px;
+}
+
+.tops .card h5 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.tops .card p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #001A26;
+  opacity: 0.7;
+  margin-top: 1rem;
+}
+
+.tops .card h4 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.tops .card .degre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px 4px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #001a26bb;
+}
+
+.tops .card .degre i {
+  width: 14px;
+  height: 14px;
+  color: #FFCC00;
+  margin: 0 2px;
+}
+
+.tops .card .percent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px 4px;
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #c40b0bce;
+}
+
+@media only screen and (max-width: 575px) {
+  .tops .card {
+    height: initial;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .tops h1 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-top: 3rem;
+    padding-bottom: 0;
+  }
+}
+
+.categories h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  color: #001A26;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.categories .card {
+  position: relative;
+}
+
+.categories .card .mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-19.74%, rgba(0, 26, 38, 0)), color-stop(128.95%, #001A26));
+  background: linear-gradient(180deg, rgba(0, 26, 38, 0) -19.74%, #001A26 128.95%);
+  border-radius: 8px;
+}
+
+.categories .card .mask h5 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffffc5;
+}
+
+.categories .card .mask h6 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+
+.categories .card .mask h6 i {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .categories h1 {
+    font-size: 30px;
+    padding-bottom: 0;
+  }
+}
+
+.clients-say h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  color: #001A26;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.clients-say .carousel-body {
+  width: 100%;
+  height: 400px;
+  padding-top: 7rem;
+}
+
+.clients-say .carousel-body .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clients-say .carousel-body .top .qosh {
+  width: 80px;
+  height: 60px;
+  opacity: 0.9;
+}
+
+.clients-say .carousel-body .top .logo {
+  width: 110px;
+  height: 110px;
+  border-radius: 110px;
+  -webkit-transform: translateY(-4rem);
+          transform: translateY(-4rem);
+}
+
+.clients-say .carousel-body .text {
+  width: 47vw;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 44px;
+  text-align: center;
+  color: #001A26;
+  opacity: 0.9;
+}
+
+.clients-say .buttons {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients-say .buttons .carousel-control-prev {
+  position: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 26px;
+  border: 1px solid #5A68E7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  width: 70px;
+  height: 40px;
+}
+
+.clients-say .buttons .carousel-control-prev i {
+  color: #5A68E7;
+}
+
+.clients-say .buttons .carousel-control-next {
+  position: initial;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 26px;
+  border: 1px solid #5A68E7;
+  background: #5A68E7;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  width: 70px;
+  height: 40px;
+}
+
+.clients-say .buttons .carousel-control-next i {
+  color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .clients-say h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .clients-say .carousel-body .top {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .clients-say .carousel-body .top .qosh {
+    width: 60px;
+    height: 50px;
+    opacity: 0.9;
+  }
+  .clients-say .carousel-body .top .logo {
+    width: 110px;
+    height: 110px;
+  }
+  .clients-say .carousel-body .text {
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #001A26;
+    opacity: 0.9;
+  }
+  .clients-say .buttons {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .clients-say .buttons .carousel-control-prev {
+    position: initial;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 26px;
+    border: 1px solid #5A68E7;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 4px;
+    width: 70px;
+    height: 40px;
+  }
+  .clients-say .buttons .carousel-control-prev i {
+    color: #5A68E7;
+  }
+  .clients-say .buttons .carousel-control-next {
+    position: initial;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 26px;
+    border: 1px solid #5A68E7;
+    background: #5A68E7;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 4px;
+    width: 70px;
+    height: 40px;
+  }
+  .clients-say .buttons .carousel-control-next i {
+    color: #fff;
+  }
+}
+
+.subscribe {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 5rem;
+}
+
+.subscribe .row {
+  padding: 5rem 0;
+}
+
+.subscribe .left .postcard {
+  position: relative;
+  width: 160px;
+  height: 177px;
+}
+
+.subscribe .left .postcard .body {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.subscribe .left .postcard .info {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.subscribe .left .postcard .old {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.subscribe .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.subscribe .right h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  color: #001A26;
+  text-align: justify;
+}
+
+.subscribe .right p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 1.5rem;
+  color: #1A2B49;
+  opacity: 0.9;
+  text-align: justify;
+}
+
+.subscribe .right form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscribe .right form button {
+  background-color: #5A68E7;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.subscribe .right form input {
+  display: inline-block;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 100%;
+  margin-right: 30px;
+  border: 0;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 575px) {
+  .subscribe .row {
+    padding: 5rem 0;
+  }
+  .subscribe .left .postcard {
+    position: relative;
+    width: 160px;
+    height: 177px;
+  }
+  .subscribe .left .postcard .body {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .subscribe .left .postcard .info {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .subscribe .left .postcard .old {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+  .subscribe .right h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    color: #001A26;
+    text-align: justify;
+  }
+  .subscribe .right p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 1rem;
+    color: #1A2B49;
+    opacity: 0.9;
+    text-align: justify;
+  }
+  .subscribe .right form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .subscribe .right form button {
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .subscribe .right form input {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.futter {
+  background: #001A26;
+}
+
+.futter .futter_logo {
+  height: 40px;
+}
+
+.futter .futter_logo img {
+  display: inline-block;
+  width: 30px;
+}
+
+.futter .futter_logo a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.futter .futter_nav_iteams {
+  height: 40px;
+}
+
+.futter .futter_nav_iteams ul li {
+  display: inline-block;
+}
+
+.futter .futter_nav_iteams ul li a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.futter .futter_nav_brands {
+  height: 40px;
+}
+
+.futter .futter_nav_brands a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-left: 0.7rem;
+}
+
+.futter .futter_nav_brands a i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.futter .text p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.futter .lang_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.futter .lang_buttons .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.futter .lang_buttons .buttons a {
+  padding: 0.7rem 1.4rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #FFFFFF;
+  border-radius: 8px;
+  margin: 0 3px;
+  opacity: 0.9;
+}
+
+.futter .lang_buttons .buttons .active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media only screen and (max-width: 767px) {
+  .futter .futter_logo {
+    height: 40px;
+  }
+  .futter .futter_logo img {
+    display: inline-block;
+    width: 20px;
+  }
+  .futter .futter_logo a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .futter .futter_nav_iteams {
+    height: 40px;
+  }
+  .futter .futter_nav_iteams ul li {
+    display: inline-block;
+  }
+  .futter .futter_nav_iteams ul li a {
+    padding: 0.4rem 0.8rem;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .futter .futter_nav_brands {
+    height: 40px;
+  }
+  .futter .futter_nav_brands a {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.7rem;
+    margin-left: 0;
+  }
+  .futter .futter_nav_brands a i {
+    font-size: 14px;
+  }
+  .futter .text p {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: justify;
+  }
+  .futter .lang_buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .futter .lang_buttons .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 3px 1px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .futter .lang_buttons .buttons a {
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 3px;
+    opacity: 0.9;
+  }
+  .futter .lang_buttons .buttons .active {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .futter .futter_logo {
+    height: 40px;
+  }
+  .futter .futter_logo img {
+    display: inline-block;
+    width: 20px;
+  }
+  .futter .futter_logo a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .futter .futter_nav_iteams {
+    height: 40px;
+  }
+  .futter .futter_nav_iteams ul li {
+    display: inline-block;
+  }
+  .futter .futter_nav_iteams ul li a {
+    padding: 0.4rem 0.8rem;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .futter .futter_nav_brands {
+    height: 40px;
+  }
+  .futter .futter_nav_brands a {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.7rem;
+    margin-left: 0;
+  }
+  .futter .futter_nav_brands a i {
+    font-size: 14px;
+  }
+  .futter .text p {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: justify;
+  }
+  .futter .lang_buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .futter .lang_buttons .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2px 1px;
+    border-radius: 7px;
+  }
+  .futter .lang_buttons .buttons a {
+    padding: 0.3rem 0.4rem;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 2px;
+    opacity: 0.9;
+  }
+}
+
+.sign_in {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("./../images/bg2.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./../images/bg2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sign_in .navbar-toggler-icon {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.sign_in .navbar-brand {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.sign_in .navbar-brand .logo__image {
+  height: 30px;
+}
+
+.sign_in .content h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  /* white */
+  color: #FFFFFF;
+}
+
+.sign_in .content h5 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  text-align: center;
+  /* white */
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.sign_in .content form label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.sign_in .content form input {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.sign_in .content form a {
+  background: #FFFFFF;
+  border-radius: 4px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 10px 15px;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #001A26;
+}
+
+.sign_in .content form .from_links a {
+  width: 47%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  /* white */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #FFFFFF;
+}
+
+.sign_in .content form .from_links a img {
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 360px) {
+  .sign_in .content h1 {
+    font-size: 30px;
+  }
+}
+
+.profile {
+  background-color: #F6F6FC;
+  min-height: 100vh;
+}
+
+.profile .btn_login {
+  background-color: #5A68E7;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.profile .navbar-brand {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #001A26;
+}
+
+.profile .navbar-brand .logo__image {
+  height: 30px;
+}
+
+.profile .navbar-nav .nav-link {
+  color: #001A26;
+}
+
+.profile .nav-control .search i {
+  color: #001A26;
+}
+
+.profile .user_elips {
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.profile .user_elips img {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.profile .content {
+  margin-top: 5rem;
+}
+
+.profile .content .sidebar {
+  border-radius: 8px;
+}
+
+.profile .content .sidebar a {
+  padding: 0.7rem 1.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 26, 38, 0.6);
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.profile .content .sidebar a i {
+  font-size: 30px;
+  color: rgba(0, 26, 38, 0.6);
+  margin-right: 1.5rem;
+}
+
+.profile .content .sidebar a:first-child {
+  border: 1px solid rgba(90, 104, 231, 0.5);
+  border-radius: 8px;
+  color: #5A68E7;
+}
+
+.profile .content .sidebar a:first-child i {
+  color: #5A68E7;
+}
+
+.profile .content .profile_body h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  /* dark */
+  color: #001A26;
+}
+
+.profile .content .profile_body img {
+  width: 112px;
+  height: 140px;
+  border: 5px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 1.5rem;
+}
+
+.profile .content .profile_body .form_img {
+  border: 1px solid #5A68E7;
+  border-radius: 8px;
+  padding: 0.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Customize the label (the chechbox_input) */
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create thespan/indicator (hidden when not checked) */
+  /* Show thespan when checked */
+  /* Style thespan/indicator */
+}
+
+.profile .content .profile_body .form_img .chechbox_input {
+  margin-right: 0.7rem;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.profile .content .profile_body .form_img .chechbox_input input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.profile .content .profile_body .form_img span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+.profile .content .profile_body .form_img .chechbox_input:hover input ~ span {
+  background-color: #ccc;
+}
+
+.profile .content .profile_body .form_img .chechbox_input input:checked ~ span {
+  background-color: #2196F3;
+}
+
+.profile .content .profile_body .form_img span:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.profile .content .profile_body .form_img .chechbox_input input:checked ~ span:after {
+  display: block;
+}
+
+.profile .content .profile_body .form_img .chechbox_input span:after {
+  left: 6px;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.profile .content .profile_body .form_body {
+  margin-top: 2rem;
+}
+
+.profile .content .profile_body .form_body label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 5px;
+  color: #001A26;
+}
+
+.profile .content .profile_body .form_body input {
+  background: rgba(0, 26, 38, 0.05);
+}
+
+.profile .content .profile_body .form_body input, .profile .content .profile_body .form_body select {
+  border: 0;
+  border-radius: 4px;
+  padding: 0.5rem 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile .content .profile_body .form_body select {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sign_up {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("./../images/bg2.png");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./../images/bg2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sign_up .navbar-toggler-icon {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.sign_up .navbar-brand {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.sign_up .navbar-brand .logo__image {
+  height: 30px;
+}
+
+.sign_up .content h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  /* white */
+  color: #FFFFFF;
+}
+
+.sign_up .content h5 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  text-align: center;
+  /* white */
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.sign_up .content form label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.sign_up .content form input {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.sign_up .content form button {
+  background: #FFFFFF;
+  border-radius: 4px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 10px 15px;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #001A26;
+}
+
+@media only screen and (max-width: 360px) {
+  .sign_up .content h1 {
+    font-size: 30px;
+  }
+}
+
+.profile_settings {
+  background-color: #F6F6FC;
+  min-height: 100vh;
+}
+
+.profile_settings .btn_login {
+  background-color: #5A68E7;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.profile_settings .navbar-brand {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #001A26;
+}
+
+.profile_settings .navbar-brand .logo__image {
+  height: 30px;
+}
+
+.profile_settings .navbar-nav .nav-link {
+  color: #001A26;
+}
+
+.profile_settings i {
+  color: #001A26;
+}
+
+.profile_settings .user_elips {
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.profile_settings .user_elips img {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.profile_settings .content {
+  margin-top: 5rem;
+}
+
+.profile_settings .content .sidebar {
+  border-radius: 8px;
+}
+
+.profile_settings .content .sidebar a {
+  padding: 0.7rem 1.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 26, 38, 0.6);
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.profile_settings .content .sidebar a i {
+  font-size: 30px;
+  color: rgba(0, 26, 38, 0.6);
+  margin-right: 1.5rem;
+}
+
+.profile_settings .content .sidebar a:last-child {
+  border: 1px solid rgba(90, 104, 231, 0.5);
+  border-radius: 8px;
+  color: #5A68E7;
+}
+
+.profile_settings .content .sidebar a:last-child i {
+  color: #5A68E7;
+}
+
+.profile_settings .content .profile_body h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  /* dark */
+  color: #001A26;
+}
+
+.profile_settings .content .profile_body img {
+  width: 112px;
+  height: 140px;
+  border: 5px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 1.5rem;
+}
+
+.profile_settings .content .profile_body .form_img {
+  border: 1px solid #5A68E7;
+  border-radius: 8px;
+  padding: 0.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Customize the label (the chechbox_input) */
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create thespan/indicator (hidden when not checked) */
+  /* Show thespan when checked */
+  /* Style thespan/indicator */
+}
+
+.profile_settings .content .profile_body .form_img .chechbox_input {
+  margin-right: 0.7rem;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.profile_settings .content .profile_body .form_img .chechbox_input input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.profile_settings .content .profile_body .form_img span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+.profile_settings .content .profile_body .form_img .chechbox_input:hover input ~ span {
+  background-color: #ccc;
+}
+
+.profile_settings .content .profile_body .form_img .chechbox_input input:checked ~ span {
+  background-color: #2196F3;
+}
+
+.profile_settings .content .profile_body .form_img span:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.profile_settings .content .profile_body .form_img .chechbox_input input:checked ~ span:after {
+  display: block;
+}
+
+.profile_settings .content .profile_body .form_img .chechbox_input span:after {
+  left: 6px;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.profile_settings .content .profile_body .form_body {
+  margin-top: 2rem;
+}
+
+.profile_settings .content .profile_body .form_body label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 5px;
+  color: #001A26;
+}
+
+.profile_settings .content .profile_body .form_body input {
+  background: rgba(0, 26, 38, 0.05);
+}
+
+.profile_settings .content .profile_body .form_body input, .profile_settings .content .profile_body .form_body select {
+  border: 0;
+  border-radius: 4px;
+  padding: 0.5rem 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile_settings .content .profile_body .form_body select {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.filter_nav {
+  background-color: #F6F6FC;
+}
+
+.filter_nav .btn_login {
+  background-color: #5A68E7;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.filter_nav .navbar-brand {
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #001A26;
+}
+
+.filter_nav .navbar-brand .logo__image {
+  height: 30px;
+}
+
+.filter_nav .navbar-nav .nav-link {
+  color: #001A26;
+}
+
+.filter_nav i {
+  color: #001A26;
+}
+
+.filter_nav .user_elips {
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.filter_nav .user_elips img {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+.filter_body {
+  background-color: #F6F6FC;
+}
+
+.filter_body .right_body h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  /* dark */
+  color: #001A26;
+}
+
+.filter_body .right_body .card {
+  position: relative;
+  height: 300px;
+  background-color: initial;
+}
+
+.filter_body .right_body .card h5 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.filter_body .right_body .card p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #001A26;
+  opacity: 0.7;
+  margin-top: 1rem;
+}
+
+.filter_body .right_body .card h4 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.filter_body .right_body .card .degre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px 4px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #001a26bb;
+}
+
+.filter_body .right_body .card .degre i {
+  width: 14px;
+  height: 14px;
+  color: #FFCC00;
+  margin: 0 2px;
+}
+
+.filter_body .right_body .card .percent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px 4px;
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #c40b0bce;
+}
+
+.filter_body .left_body {
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.filter_body .left_body form {
+  margin-top: 2rem;
+}
+
+.filter_body .left_body form label {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 5px;
+  color: #001A26;
+}
+
+.filter_body .left_body form input {
+  background: rgba(0, 26, 38, 0.05);
+}
+
+.filter_body .left_body form input[type="range"] {
+  -webkit-appearance: none;
+  padding: 0;
+  height: 5px;
+  background: #0058FF;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.filter_body .left_body form input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  border: 3px solid #0058FF;
+  outline: none;
+}
+
+.filter_body .left_body form input[type="range"]::-ms-thumb {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: #001A26;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.filter_body .left_body form .double_renge {
+  position: relative;
+}
+
+.filter_body .left_body form .double_renge input[type="range"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  outline: none;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.filter_body .left_body form .double_renge .slider-track {
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+}
+
+.filter_body .left_body form .double_renge input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  height: 5px;
+}
+
+.filter_body .left_body form .double_renge input[type="range"]::-moz-range-track {
+  -moz-appearance: none;
+  height: 5px;
+}
+
+.filter_body .left_body form .double_renge input[type="range"]::-ms-track {
+  appearance: none;
+  height: 5px;
+}
+
+.filter_body .left_body form .double_renge input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 23px;
+  width: 23px;
+  cursor: pointer;
+  margin-top: -9px;
+  pointer-events: auto;
+  border-radius: 50%;
+}
+
+.filter_body .left_body form .double_renge input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 1.7em;
+  width: 1.7em;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #3264fe;
+  pointer-events: auto;
+}
+
+.filter_body .left_body form .double_renge input[type="range"]::-ms-thumb {
+  appearance: none;
+  height: 1.7em;
+  width: 1.7em;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #3264fe;
+  pointer-events: auto;
+}
+
+.filter_body .left_body form .double_renge input[type="range"]:active::-webkit-slider-thumb {
+  background-color: #ffffff;
+  border: 3px solid #3264fe;
+}
+
+.filter_body .left_body form .clear_button:hover {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+.filter_body .left_body form select {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+* {
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+}
+/*# sourceMappingURL=main.css.map */

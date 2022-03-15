@@ -1,0 +1,125 @@
+.tops {
+    .btn-more {
+        background-color: #5A68E7;
+        font-family: Oxanium;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    h1 {
+
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: $tops_h1;
+        line-height: $tops_h1;
+        color: #001A26;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+
+    .card {
+        position: relative;
+        height: 300px;
+
+        h5 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: $tops_card_title;
+            line-height: $tops_card_title;
+        }
+
+        p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: $tops_card_text;
+            line-height: $tops_card_text;
+
+            color: #001A26;
+
+            opacity: 0.7;
+            margin-top: 1rem;
+
+        }
+
+        h4 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: $tops_card_prise;
+            line-height: $tops_card_prise;
+        }
+
+        .degre {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 2px 4px;
+
+            position: absolute;
+            left: 7px;
+            top: 7px;
+
+            background: #FFFFFF;
+            border-radius: 3px;
+            //text
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: $tops_card_degre;
+            line-height: $tops_card_degre;
+            color: #001a26bb;
+
+            i {
+                width: 14px;
+                height: 14px;
+                color: #FFCC00;
+                margin: 0 2px;
+            }
+        }
+        .percent {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 2px 4px;
+
+            position: absolute;
+            right: 7px;
+            top: 7px;
+
+            background: #FFFFFF;
+            border-radius: 3px;
+            //text
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: $tops_card_degre;
+            line-height: $tops_card_degre;
+            color: #c40b0bce;
+
+        }
+    }
+}
+@media only screen and (max-width:575px) {
+    .tops {
+        .card {
+            height: initial;
+        }
+    }
+}
+@media only screen and (max-width:767px) {
+   
+    .tops {
+        h1 {
+            font-size: $tops_h1 - 10px;
+            line-height: $tops_h1;
+            padding-top: 3rem;
+            padding-bottom: 0;
+        }
+    }
+}

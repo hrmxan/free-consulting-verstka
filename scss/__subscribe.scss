@@ -1,0 +1,168 @@
+.subscribe {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 5rem;
+
+    .row {
+        padding: 5rem 0;
+    }
+
+    .left {
+        .postcard {
+            position: relative;
+            width: 160px;
+            height: 177px;
+
+            .body {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+
+            .info {
+                width: 80%;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .old {
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 40px;
+            color: #001A26;
+            text-align: justify;
+        }
+
+        p {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: 1.5rem;
+            color: #1A2B49;
+            opacity: 0.9;
+            text-align: justify;
+        }
+
+        form {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            button {
+                background-color: #5A68E7;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+
+            input {
+                display: inline-block;
+                flex-grow: 1;
+                height: 100%;
+                margin-right: 30px;
+                border: 0;
+                background: rgba(0, 0, 0, 0.1);
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .subscribe {
+
+        .row {
+            padding: 5rem 0;
+        }
+
+        .left {
+            .postcard {
+                position: relative;
+                width: 160px;
+                height: 177px;
+
+                .body {
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                }
+
+                .info {
+                    width: 80%;
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
+                .old {
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+
+                }
+            }
+        }
+
+        .right {
+            h1 {
+                text-align: center;
+                font-size: 30px;
+                line-height: 30px;
+                color: #001A26;
+                text-align: justify;
+            }
+
+            p {
+                text-align: center;
+                font-size: 14px;
+                line-height: 20px;
+                margin-top: 1rem;
+                color: #1A2B49;
+                opacity: 0.9;
+                text-align: justify;
+            }
+
+            form {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                button {
+                    width: 100%;
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+
+                input {
+                    width: 100%;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,299 @@
+.filter_nav {
+    background-color: #F6F6FC;
+
+    .btn_login {
+        background-color: #5A68E7;
+        font-family: Oxanium;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    .navbar-brand {
+
+        font-family: Oxanium;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height */
+        color: #001A26;
+
+        .logo__image {
+            height: 30px;
+        }
+
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: #001A26;
+        }
+    }
+
+    i {
+        color: #001A26;
+    }
+
+    .user_elips {
+        display: inline-block;
+        border-radius: 100%;
+
+        img {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            border-radius: 100%;
+        }
+    }
+}
+
+.filter_body {
+    background-color: #F6F6FC;
+
+    .right_body {
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 57px;
+
+            /* dark */
+
+            color: #001A26;
+        }
+
+        .card {
+            position: relative;
+            height: 300px;
+            background-color: initial;
+
+            h5 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: $tops_card_title;
+                line-height: $tops_card_title;
+            }
+
+            p {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: $tops_card_text;
+                line-height: $tops_card_text;
+
+                color: #001A26;
+
+                opacity: 0.7;
+                margin-top: 1rem;
+
+            }
+
+            h4 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-style: normal;
+                font-weight: 800;
+                font-size: $tops_card_prise;
+                line-height: $tops_card_prise;
+            }
+
+            .degre {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 2px 4px;
+
+                position: absolute;
+                left: 7px;
+                top: 7px;
+
+                background: #FFFFFF;
+                border-radius: 3px;
+                //text
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: $tops_card_degre;
+                line-height: $tops_card_degre;
+                color: #001a26bb;
+
+                i {
+                    width: 14px;
+                    height: 14px;
+                    color: #FFCC00;
+                    margin: 0 2px;
+                }
+            }
+
+            .percent {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 2px 4px;
+
+                position: absolute;
+                right: 7px;
+                top: 7px;
+
+                background: #FFFFFF;
+                border-radius: 3px;
+                //text
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: $tops_card_degre;
+                line-height: $tops_card_degre;
+                color: #c40b0bce;
+
+            }
+        }
+    }
+
+    .left_body {
+        background: #FFFFFF;
+        border-radius: 8px;
+
+        form {
+            margin-top: 2rem;
+
+            label {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                margin-bottom: 5px;
+
+                color: #001A26;
+            }
+
+            input {
+                background: rgba($color: #001A26, $alpha: 0.05);
+            }
+
+            // edit input range type styles
+            input[type="range"] {
+                -webkit-appearance: none;
+                padding: 0;
+                height: 5px;
+                background: #0058FF;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+
+                // slider
+                &::-webkit-slider-thumb {
+                    -webkit-appearance: none;
+                    appearance: none;
+                    width: 23px;
+                    height: 23px;
+                    border-radius: 50%;
+                    background: white;
+                    cursor: pointer;
+                    border: 3px solid #0058FF;
+                    outline: none;
+                }
+
+                &::-ms-thumb {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    border-radius: 50%;
+                    background: #001A26;
+                    cursor: pointer;
+                    border: none;
+                    outline: none;
+                }
+            }
+
+            .double_renge {
+                position: relative;
+                input[type="range"] {
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    width: 100%;
+                    outline: none;
+                    position: absolute;
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                    background-color: transparent;
+                    pointer-events: none;
+                }
+
+                .slider-track {
+                    width: 100%;
+                    height: 5px;
+                    position: absolute;
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                    border-radius: 5px;
+                }
+
+                input[type="range"]::-webkit-slider-runnable-track {
+                    -webkit-appearance: none;
+                    height: 5px;
+                }
+
+                input[type="range"]::-moz-range-track {
+                    -moz-appearance: none;
+                    height: 5px;
+                }
+
+                input[type="range"]::-ms-track {
+                    appearance: none;
+                    height: 5px;
+                }
+
+                input[type="range"]::-webkit-slider-thumb {
+                    -webkit-appearance: none;
+                    height: 23px;
+                    width: 23px;
+                    // background-color: #3264fe;
+                    cursor: pointer;
+                    margin-top: -9px;
+                    pointer-events: auto;
+                    border-radius: 50%;
+                }
+
+                input[type="range"]::-moz-range-thumb {
+                    -webkit-appearance: none;
+                    height: 1.7em;
+                    width: 1.7em;
+                    cursor: pointer;
+                    border-radius: 50%;
+                    background-color: #3264fe;
+                    pointer-events: auto;
+                }
+
+                input[type="range"]::-ms-thumb {
+                    appearance: none;
+                    height: 1.7em;
+                    width: 1.7em;
+                    cursor: pointer;
+                    border-radius: 50%;
+                    background-color: #3264fe;
+                    pointer-events: auto;
+                }
+
+                input[type="range"]:active::-webkit-slider-thumb {
+                    background-color: #ffffff;
+                    border: 3px solid #3264fe;
+                }
+            }
+            .clear_button:hover {
+                color: #FFFFFF;
+                background-color: #FFFFFF;
+            }
+            select {
+                background-color: rgba($color: #000000, $alpha: 0.05);
+            }
+        }
+    }
+}
